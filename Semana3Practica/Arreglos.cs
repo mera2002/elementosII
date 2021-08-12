@@ -40,9 +40,10 @@ namespace Semana3Practica
                 suma = suma + notas[i]; 
                 promedio = suma / notas.Length;
             {
-               
 
+                Console.WriteLine("---------------------------------------------");
                 Console.WriteLine("La suma de las notas es: "+suma);
+                Console.WriteLine("---------------------------------------------");
                 Console.WriteLine("El promedio de notas es notas es: " + promedio);
             }
 
