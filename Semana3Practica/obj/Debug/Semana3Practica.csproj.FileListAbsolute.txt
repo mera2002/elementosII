@@ -1,0 +1,7 @@
+C:\Semana3Practica\Semana3Practica\bin\Debug\Semana3Practica.exe.config
+C:\Semana3Practica\Semana3Practica\bin\Debug\Semana3Practica.exe
+C:\Semana3Practica\Semana3Practica\bin\Debug\Semana3Practica.pdb
+C:\Semana3Practica\Semana3Practica\obj\Debug\Semana3Practica.csproj.AssemblyReference.cache
+C:\Semana3Practica\Semana3Practica\obj\Debug\Semana3Practica.csproj.CoreCompileInputs.cache
+C:\Semana3Practica\Semana3Practica\obj\Debug\Semana3Practica.exe
+C:\Semana3Practica\Semana3Practica\obj\Debug\Semana3Practica.pdb
