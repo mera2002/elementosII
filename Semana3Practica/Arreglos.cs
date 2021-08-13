@@ -10,6 +10,7 @@ namespace Semana3Practica
     {
         static void Main()
         {
+        
             Double promedio;
             int mayor = 0, j = 0;
             int suma = 0;
@@ -20,8 +21,6 @@ namespace Semana3Practica
             {
                 Console.WriteLine("Ingrese el nombre del estudiante {0}:  ", i);
                 nombres[i] = Console.ReadLine();
-                
-
 
             }
 
@@ -38,8 +37,8 @@ namespace Semana3Practica
             }
 
             //recorrer el arreglo de notas 
-            
 
+            Console.WriteLine("Array desordenado"); 
             for (int i = 0; i < nombres.Length; i++)
             {
                 Console.WriteLine("---------------------------------------------");
@@ -48,16 +47,18 @@ namespace Semana3Practica
 
             }
 
+            Array.Sort(notas); //el metodo sort de la clase Array permite ordenar los elemetos del arreglo 
+           // Array.Reverse(notas);
+
+            //ordenar el arreglo 
+
 
             for (int i = 0; i < notas.Length; i++)
             {
                 Console.WriteLine("---------------------------------------------");
                 Console.WriteLine(" Nota del estudiante {0}: {1} ", i, notas[i]); //Imprime los valores 
 
-
             }
-
-
 
             for (int i = 0; i < notas.Length; i++)
 
@@ -65,12 +66,8 @@ namespace Semana3Practica
                 promedio = suma / notas.Length;
             {
 
-         
                 Console.WriteLine("---------------------------------------------");
                 Console.WriteLine("El promedio de notas es : " + promedio);
-
-
-               
                     
             }
 
